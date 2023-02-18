@@ -21,6 +21,7 @@ function Card(){
                             <h1>Annual Plan</h1>
                         </div>
                         <div>
+                    
                             59.99$/year
                         </div>
                     </div>
@@ -33,10 +34,10 @@ function Card(){
 
             <div className='card-buttons'>
                 <div>
-                    <button>Proceed to Payement</button>
+                    <button className='button-dark'>Proceed to Payement</button>
                 </div>
                 <div>
-                    <button>Cancel Order</button>
+                    <button className='button-light'>Cancel Order</button>
                 </div>
             </div>
         </div>

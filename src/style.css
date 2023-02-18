@@ -12,12 +12,13 @@
     align-items: center;
     background-image: url("images/pattern-background-desktop.svg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     line-height: 1.5;
 }
 /*layout*/
 
 .summary-card{
+    margin-top: 3rem;
     width: 350px;
     background-color: #fafafa;
     border: 1px solid #fafafa;
@@ -29,6 +30,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 
 /*bg*/
 .card-upper-bg{
@@ -64,15 +66,52 @@
     color: hsl(224, 23%, 55%);
 }
 
+
 .plan-info{
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
     margin-top: 1rem;
     margin-left: 2rem;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(241, 241, 241);
     border-radius: 0.5rem;
     width: 250px;
+    height: 70px;
 }
 
-.card-buttons{
+.plan-change-link{
+    color: hsl(245, 75%, 52%);
+    margin-top: 3rem;
+}
+
+.plan-change-link:hover{
+    color:hsl(245, 84%, 59%);
+}
+
+.card-buttons  button{
     margin-top: 1rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
+    width: 250px;
+    height: 45px;
+    border: none;
+}
+
+
+.button-dark{
+    background-color: hsl(245, 75%, 52%);
+    color: #fafafa;
+    border-radius: 0.4rem;
+}
+
+.button-dark:hover{
+    background-color:hsl(245, 84%, 59%);
+}
+
+.button-light{
+    background-color: #fafafa;
+    color:  hsl(224, 23%, 55%);
+}
+
+.button-light:hover{
+    color: hsl(230, 17%, 14%);
 }
