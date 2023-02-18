@@ -5,13 +5,23 @@
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
 }
-
-/*layout*/
-.summary-card{
+#root{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+}
+/*layout*/
+
+.summary-card{
+    width: 350px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 1rem;
 }
 
 .plan-details ,
@@ -22,6 +32,7 @@
 
 /*bg*/
 .card-upper-bg{
+    border-radius: 1rem;
     width: 350px;
     height: 200px;
     background-image: url("images/illustration-hero.svg");
@@ -38,6 +49,30 @@
 }
 /*typo*/
 .card-content{
+    margin-top: 1.5rem;
     width: 350px;
     text-align: center;
+}
+
+.card-content > h1,
+.plan-info {
+    color: hsl(223, 47%, 23%);
+    font-size: 24px;
+}
+
+.card-content > p{
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-info{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+    width: 250px;
+}
+
+.card-buttons{
+    margin-top: 1rem;
+    margin-left: 5rem;
 }

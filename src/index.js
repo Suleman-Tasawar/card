@@ -31,12 +31,13 @@ function Card(){
                 </div>
             </div>
 
-            <div>
-                <button>Proceed to Payement</button>
-            </div>
-
-            <div>
-                <button>Cancel Order</button>
+            <div className='card-buttons'>
+                <div>
+                    <button>Proceed to Payement</button>
+                </div>
+                <div>
+                    <button>Cancel Order</button>
+                </div>
             </div>
         </div>
     )
